@@ -35,7 +35,7 @@ public class DevOps {
             jumlah = AUD * ambil;
             total = saldo - jumlah ;
             System.out.println("uang yang anda ambil setelah di konversi ke IDR sebesar IDR " + jumlah);
-            System.out.println("Saldo anda  saat ini sebesar IDR. " + total);
+            System.out.println("Saat ini saldo anda sebesar IDR. " + total);
             }
             else if (menu == 2){
             System.out.println("berapa uang yang ingin anda ambil");
@@ -43,7 +43,7 @@ public class DevOps {
             jumlah = USD * ambil;
             total = saldo - jumlah ;
             System.out.println("uang yang anda ambil setelah di konversi ke IDR sebesar IDR " + jumlah);
-            System.out.println("Saldo anda  saat ini sebesar IDR. " + total);
+            System.out.println("Saat ini saldo anda sebesar IDR. " + total);
             }
             else {
                 System.out.println("Pilihan yang anda pilih tidak ada");
@@ -59,7 +59,7 @@ public class DevOps {
             jumlah = AUD * simpan;
             total = saldo + jumlah; 
             System.out.println("uang yang anda simpan setelah di konversi ke IDR sebesar IDR " + jumlah);
-            System.out.println("Saldo anda  saat ini sebesar IDR. " + total);
+            System.out.println("Saat ini saldo anda sebesar IDR. " + total);
                 }
             else if (menu == 2){
              System.out.println("Berapa uang yang ingin ada simpan");
@@ -67,7 +67,7 @@ public class DevOps {
             jumlah = USD * simpan;
             total = saldo + jumlah; 
             System.out.println("uang yang anda simpan setelah di konversi ke IDR sebesar IDR " + jumlah);
-            System.out.println("Saldo anda  saat ini sebesar IDR. " + total);
+            System.out.println("Saat ini saldo anda sebesar IDR. " + total);
             }
             else {
                 System.out.println("Pilihan yang anda pilih tidak ada");
@@ -79,11 +79,11 @@ public class DevOps {
             menu = pilih.nextInt();
             if (menu == 1){
                 jumlah = saldo * AUD;
-                System.out.println("Saldo anda saat ini sebesar IDR. " + jumlah);
+                System.out.println("Saat ini saldo anda sebesar IDR. " + jumlah);
             }
             else if (menu == 2){
                 jumlah = saldo * USD;
-                System.out.println("Saldo anda saat ini sebesar IDR. " + jumlah);
+                System.out.println("Saat ini saldo anda sebesar IDR. " + jumlah);
             }
             else {
                 System.out.println("Pilihan yang anda pilih tidak ada");
